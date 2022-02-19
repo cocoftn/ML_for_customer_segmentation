@@ -1,11 +1,13 @@
 # ML_for_customer_segmentation
 
 ## Objectif
-Identifier les segments de clientèle en fonction du comportement d'achat global du client
+Ce projet est divisé en deux partie :
+La première partie consiste, à partir de données d'achats d'un site internet, à identifier des segments de clientèle selon le comportement d'achat global des clients. 
+La seconde partie consiste à classifier les clients selon la/les classes correspondantes. Pour cela, nous avons recours aux algorithmes Xgboost, arbres de décision, forêt aléatoire et régression logistique. Nous effectuons une comparaisons des ces 5 classifieurs.
 
 ## Data
 ### Source
-
+Le fichier data_orders_2017.csv qui se trouove à la racine de ce répertoire. 
 ### Description
 Les données contiennent les variables suiantes :
 * "customer" : la colonne représentant le numéro client 
